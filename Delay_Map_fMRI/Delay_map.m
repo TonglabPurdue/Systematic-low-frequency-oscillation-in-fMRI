@@ -1,3 +1,10 @@
+% (C) Copyright 2018                TonglabPurdue
+% All rights reserved               Weldon School of Biomedical Engineering
+%                                   Purdue University
+%                                   West Lafayette, Indiana
+%                                   USA
+% Yunjie Tong, 2012
+
 function [output]= Delay_map(imag_nii,GM,o_filename,TR, nTR, thresh)
 
 %you will need the function "oversample_ts.m" and the function in NIfTI_30250233.zip to run this function.
