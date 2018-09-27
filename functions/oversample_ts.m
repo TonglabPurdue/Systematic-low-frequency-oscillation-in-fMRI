@@ -1,3 +1,10 @@
+% (C) Copyright 2018                TonglabPurdue
+% All rights reserved               Weldon School of Biomedical Engineering
+%                                   Purdue University
+%                                   West Lafayette, Indiana
+%                                   USA
+% Yunjie Tong, 2012
+
 function TS=oversample_ts(ts,ratioNtoOld)
 
 
