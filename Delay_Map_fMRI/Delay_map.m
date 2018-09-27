@@ -94,7 +94,6 @@ for i=1:(AA1(1))
 end
 
 %% end of trial
-imag=New_img;
 fname=strcat(o_filename,'_delayMap.nii')
 imag.hdr.dime.dim(5)=1;
 imag.img=New_img;
