@@ -77,7 +77,7 @@ for i=1:(AA1(1))
 
 %% calculate xcorr coef with ONE NIRS ts   
                 
-                [r,p]=xcorr(ts_detrend,ref_ts,xcorr_range,'coeff');
+                [r,p]=xcorr(filtf(ts_detrend,0.01,0.1,1/(TR/ratioNtoOld)),filtf(ref_ts,0.01,0.1,1/(TR/ratioNtoOld)),xcorr_range,'coeff');
                 
                 if (max(r)>thresh) %max r = MCCC
                 T=p(find(r==max(r))); %T = corresponding time delay of MCCC
