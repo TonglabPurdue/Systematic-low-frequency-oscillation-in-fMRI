@@ -1,3 +1,10 @@
+% (C) Copyright 2018                TonglabPurdue
+% All rights reserved               Weldon School of Biomedical Engineering
+%                                   Purdue University
+%                                   West Lafayette, Indiana
+%                                   USA
+% James Hao Wang & Jinxa (Fiona) Yao, 2018
+
 clc
 clear
 close all
